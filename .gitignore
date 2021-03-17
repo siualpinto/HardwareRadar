@@ -128,7 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /hardwareScraper/hardwareScraper/logs/
-.idea/workspace.xml
-.idea/misc.xml
-.idea/HardwareRadar.iml
-.idea/misc.xml
+.idea
