@@ -24,14 +24,14 @@ MAIL_SSL = True
 MAIL_TLS = True
 
 #LOGs
-LOG_FILE = "logs/" + str(datetime.utcnow().strftime("%d-%m-%Y %Hh%Mm%Ss"))
+#LOG_FILE = "logs/" + str(datetime.utcnow().strftime("%d-%m-%Y"))
 
 #Reducing the crawling
 DOWNLOAD_DELAY = 10
 CONCURRENT_REQUESTS_PER_DOMAIN = 4
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'hardwareScraper (+http://www.yourdomain.com)'
+#USER_AGENT = 'Mozilla/5.0 (compatible; Googlebot/2.1: +http://www.google.com/bot.html)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
