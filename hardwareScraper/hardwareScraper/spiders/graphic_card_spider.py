@@ -3,7 +3,6 @@ import logging
 
 from ..utilities.email_sender import EmailSender
 
-
 class GraphicCardSpider(scrapy.Spider):
     name = 'graphic_card_spider'
     allowed_domains = ["pcdiga.com"]
