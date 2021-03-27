@@ -6,7 +6,7 @@ from ..utilities.email_sender import EmailSender
 class GraphicCardSpider(scrapy.Spider):
     name = 'graphic_card_spider'
     allowed_domains = ["pcdiga.com"]
-    start_urls = ['https://www.pcdiga.com/componentes/placas-graficas/placas-graficas-nvidia?in-stock=0&z_gpu_model=6486-6485']
+    start_urls = ['https://www.pcdiga.com/componentes/placas-graficas/placas-graficas-nvidia?in-stock=1&z_gpu_model=6486-6485']
     counter = 0
     email_counter = 0
     email_sender = EmailSender()
