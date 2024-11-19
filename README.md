@@ -1,2 +1,2 @@
 # HardwareRadar
-Tool to scrap info of video grphic cards
+Tool to scrap info of video graphics cards
